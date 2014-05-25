@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metrics>
+   <MetricDescriptions>
+      <MetricDescription id = "NORM" description ="Number of Overridden Methods"/>
+      <MetricDescription id = "NOF" description ="Number of Attributes"/>
+      <MetricDescription id = "NSC" description ="Number of Children"/>
+      <MetricDescription id = "NOC" description ="Number of Classes"/>
+      <MetricDescription id = "MLOC" description ="Method Lines of Code"/>
+      <MetricDescription id = "NOM" description ="Number of Methods"/>
+      <MetricDescription id = "NBD" description ="Nested Block Depth"/>
+      <MetricDescription id = "DIT" description ="Depth of Inheritance Tree"/>
+      <MetricDescription id = "NOP" description ="Number of Packages"/>
+      <MetricDescription id = "CA" description ="Afferent Coupling"/>
+      <MetricDescription id = "NOI" description ="Number of Interfaces"/>
+      <MetricDescription id = "VG" description ="McCabe Cyclomatic Complexity"/>
+      <MetricDescription id = "TLOC" description ="Total Lines of Code"/>
+      <MetricDescription id = "RMI" description ="Instability"/>
+      <MetricDescription id = "PAR" description ="Number of Parameters"/>
+      <MetricDescription id = "LCOM" description ="Lack of Cohesion of Methods"/>
+      <MetricDescription id = "CE" description ="Efferent Coupling"/>
+      <MetricDescription id = "NSM" description ="Number of Static Methods"/>
+      <MetricDescription id = "RMD" description ="Normalized Distance"/>
+      <MetricDescription id = "RMA" description ="Abstractness"/>
+      <MetricDescription id = "SIX" description ="Specialization Index"/>
+      <MetricDescription id = "WMC" description ="Weighted methods per Class"/>
+      <MetricDescription id = "NSF" description ="Number of Static Attributes"/>
+   </MetricDescriptions>
+   <Project name = "Software-Engineering-Refactor" handle = "=Software-Engineering-Refactor">
+      <Metrics>
+         <Metric id ="NORM" value ="0" avg ="0" stddev ="0" points ="4" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+         <Metric id ="NOF" value ="6" avg ="1,5" stddev ="0,866" points ="4" max ="2" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+         <Metric id ="NSC" value ="0" avg ="0" stddev ="0" points ="4" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+         <Metric id ="NOC" value ="4" avg ="4" stddev ="0" points ="1" max ="4" per ="packageFragment" maxhandle ="=Software-Engineering-Refactor/src"/>
+         <Metric id ="MLOC" value ="55" avg ="4,583" stddev ="8,703" points ="12" max ="32" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~statement"/>
+         <Metric id ="NOM" value ="11" avg ="2,75" stddev ="1,639" points ="4" max ="4" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+         <Metric id ="NBD" avg ="1,083" stddev ="0,276" points ="12" max ="2" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~statement"/>
+         <Metric id ="DIT" avg ="1" stddev ="0" points ="4" max ="1" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+         <Metric id ="NOP" value ="1"/>
+         <Metric id ="CA" avg ="0" stddev ="0" points ="1" max ="0" per ="packageFragment" maxhandle ="=Software-Engineering-Refactor/src"/>
+         <Metric id ="NOI" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="packageFragment" maxhandle ="=Software-Engineering-Refactor/src"/>
+         <Metric id ="VG" avg ="1,667" stddev ="2,211" points ="12" max ="9" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~statement"/>
+         <Metric id ="TLOC" value ="102"/>
+         <Metric id ="RMI" avg ="1" stddev ="0" points ="1" max ="1" per ="packageFragment" maxhandle ="=Software-Engineering-Refactor/src"/>
+         <Metric id ="PAR" avg ="0,667" stddev ="0,745" points ="12" max ="2" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie~Movie~QString;~I"/>
+         <Metric id ="LCOM" avg ="0,417" stddev ="0,25" points ="4" max ="0,667" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+         <Metric id ="CE" avg ="0" stddev ="0" points ="1" max ="0" per ="packageFragment" maxhandle ="=Software-Engineering-Refactor/src"/>
+         <Metric id ="NSM" value ="1" avg ="0,25" stddev ="0,433" points ="4" max ="1" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program"/>
+         <Metric id ="RMD" avg ="0" stddev ="0" points ="1" max ="0" per ="packageFragment" maxhandle ="=Software-Engineering-Refactor/src"/>
+         <Metric id ="RMA" avg ="0" stddev ="0" points ="1" max ="0" per ="packageFragment" maxhandle ="=Software-Engineering-Refactor/src"/>
+         <Metric id ="SIX" avg ="0" stddev ="0" points ="4" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+         <Metric id ="WMC" value ="20" avg ="5" stddev ="4,183" points ="4" max ="12" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+         <Metric id ="NSF" value ="3" avg ="0,75" stddev ="1,299" points ="4" max ="3" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie"/>
+      </Metrics>
+      <PackageRoot name = "src" handle = "=Software-Engineering-Refactor/src">
+         <Metrics>
+            <Metric id ="NORM" value ="0" avg ="0" stddev ="0" points ="4" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+            <Metric id ="NOF" value ="6" avg ="1,5" stddev ="0,866" points ="4" max ="2" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+            <Metric id ="NSC" value ="0" avg ="0" stddev ="0" points ="4" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+            <Metric id ="NOC" value ="4" avg ="4" stddev ="0" points ="1" max ="4" per ="packageFragment" maxhandle ="=Software-Engineering-Refactor/src"/>
+            <Metric id ="MLOC" value ="55" avg ="4,583" stddev ="8,703" points ="12" max ="32" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~statement"/>
+            <Metric id ="NOM" value ="11" avg ="2,75" stddev ="1,639" points ="4" max ="4" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+            <Metric id ="NBD" avg ="1,083" stddev ="0,276" points ="12" max ="2" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~statement"/>
+            <Metric id ="DIT" avg ="1" stddev ="0" points ="4" max ="1" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+            <Metric id ="NOP" value ="1"/>
+            <Metric id ="CA" avg ="0" stddev ="0" points ="1" max ="0" per ="packageFragment" maxhandle ="=Software-Engineering-Refactor/src"/>
+            <Metric id ="NOI" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="packageFragment" maxhandle ="=Software-Engineering-Refactor/src"/>
+            <Metric id ="VG" avg ="1,667" stddev ="2,211" points ="12" max ="9" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~statement"/>
+            <Metric id ="TLOC" value ="102"/>
+            <Metric id ="RMI" avg ="1" stddev ="0" points ="1" max ="1" per ="packageFragment" maxhandle ="=Software-Engineering-Refactor/src"/>
+            <Metric id ="PAR" avg ="0,667" stddev ="0,745" points ="12" max ="2" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie~Movie~QString;~I"/>
+            <Metric id ="LCOM" avg ="0,417" stddev ="0,25" points ="4" max ="0,667" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+            <Metric id ="CE" avg ="0" stddev ="0" points ="1" max ="0" per ="packageFragment" maxhandle ="=Software-Engineering-Refactor/src"/>
+            <Metric id ="NSM" value ="1" avg ="0,25" stddev ="0,433" points ="4" max ="1" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program"/>
+            <Metric id ="RMD" avg ="0" stddev ="0" points ="1" max ="0" per ="packageFragment" maxhandle ="=Software-Engineering-Refactor/src"/>
+            <Metric id ="RMA" avg ="0" stddev ="0" points ="1" max ="0" per ="packageFragment" maxhandle ="=Software-Engineering-Refactor/src"/>
+            <Metric id ="SIX" avg ="0" stddev ="0" points ="4" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+            <Metric id ="WMC" value ="20" avg ="5" stddev ="4,183" points ="4" max ="12" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+            <Metric id ="NSF" value ="3" avg ="0,75" stddev ="1,299" points ="4" max ="3" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie"/>
+         </Metrics>
+         <Package name = "(default package)" handle = "=Software-Engineering-Refactor/src">
+            <Metrics>
+               <Metric id ="NORM" value ="0" avg ="0" stddev ="0" points ="4" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+               <Metric id ="NOF" value ="6" avg ="1,5" stddev ="0,866" points ="4" max ="2" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+               <Metric id ="NSC" value ="0" avg ="0" stddev ="0" points ="4" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+               <Metric id ="NOC" value ="4"/>
+               <Metric id ="MLOC" value ="55" avg ="4,583" stddev ="8,703" points ="12" max ="32" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~statement"/>
+               <Metric id ="NOM" value ="11" avg ="2,75" stddev ="1,639" points ="4" max ="4" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+               <Metric id ="NBD" avg ="1,083" stddev ="0,276" points ="12" max ="2" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~statement"/>
+               <Metric id ="DIT" avg ="1" stddev ="0" points ="4" max ="1" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+               <Metric id ="CA" value ="0"/>
+               <Metric id ="NOI" value ="0"/>
+               <Metric id ="VG" avg ="1,667" stddev ="2,211" points ="12" max ="9" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~statement"/>
+               <Metric id ="TLOC" value ="102"/>
+               <Metric id ="RMI" value ="1"/>
+               <Metric id ="PAR" avg ="0,667" stddev ="0,745" points ="12" max ="2" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie~Movie~QString;~I"/>
+               <Metric id ="LCOM" avg ="0,417" stddev ="0,25" points ="4" max ="0,667" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+               <Metric id ="CE" value ="0"/>
+               <Metric id ="NSM" value ="1" avg ="0,25" stddev ="0,433" points ="4" max ="1" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program"/>
+               <Metric id ="RMD" value ="0"/>
+               <Metric id ="RMA" value ="0"/>
+               <Metric id ="SIX" avg ="0" stddev ="0" points ="4" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+               <Metric id ="WMC" value ="20" avg ="5" stddev ="4,183" points ="4" max ="12" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+               <Metric id ="NSF" value ="3" avg ="0,75" stddev ="1,299" points ="4" max ="3" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie"/>
+            </Metrics>
+            <CompilationUnit name = "Program.java" handle = "=Software-Engineering-Refactor/src&lt;{Program.java">
+               <Metrics>
+                  <Metric id ="NORM" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program"/>
+                  <Metric id ="NOF" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program"/>
+                  <Metric id ="NSC" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program"/>
+                  <Metric id ="NOC" value ="1"/>
+                  <Metric id ="MLOC" value ="11" avg ="11" stddev ="0" points ="1" max ="11" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program~main~QString;"/>
+                  <Metric id ="NOM" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program"/>
+                  <Metric id ="NBD" avg ="1" stddev ="0" points ="1" max ="1" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program~main~QString;"/>
+                  <Metric id ="DIT" avg ="1" stddev ="0" points ="1" max ="1" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program"/>
+                  <Metric id ="NOI" value ="0"/>
+                  <Metric id ="VG" avg ="1" stddev ="0" points ="1" max ="1" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program~main~QString;"/>
+                  <Metric id ="TLOC" value ="19"/>
+                  <Metric id ="PAR" avg ="1" stddev ="0" points ="1" max ="1" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program~main~QString;"/>
+                  <Metric id ="LCOM" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program"/>
+                  <Metric id ="NSM" value ="1" avg ="1" stddev ="0" points ="1" max ="1" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program"/>
+                  <Metric id ="SIX" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program"/>
+                  <Metric id ="WMC" value ="1" avg ="1" stddev ="0" points ="1" max ="1" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program"/>
+                  <Metric id ="NSF" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program"/>
+               </Metrics>
+               <Type name = "Program" handle = "=Software-Engineering-Refactor/src&lt;{Program.java[Program">
+                  <Metrics>
+                     <Metric id ="NORM" value ="0"/>
+                     <Metric id ="NOF" value ="0"/>
+                     <Metric id ="NSC" value ="0"/>
+                     <Metric id ="MLOC" value ="11" avg ="11" stddev ="0" points ="1" max ="11" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program~main~QString;"/>
+                     <Metric id ="NOM" value ="0"/>
+                     <Metric id ="NBD" avg ="1" stddev ="0" points ="1" max ="1" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program~main~QString;"/>
+                     <Metric id ="DIT" value ="1"/>
+                     <Metric id ="VG" avg ="1" stddev ="0" points ="1" max ="1" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program~main~QString;"/>
+                     <Metric id ="PAR" avg ="1" stddev ="0" points ="1" max ="1" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Program.java[Program~main~QString;"/>
+                     <Metric id ="LCOM" value ="0"/>
+                     <Metric id ="NSM" value ="1"/>
+                     <Metric id ="SIX" value ="0"/>
+                     <Metric id ="WMC" value ="1"/>
+                     <Metric id ="NSF" value ="0"/>
+                  </Metrics>
+                  <Method name = "main" handle = "=Software-Engineering-Refactor/src&lt;{Program.java[Program~main~QString;">
+                     <Metrics>
+                        <Metric id ="MLOC" value ="11"/>
+                        <Metric id ="NBD" value ="1"/>
+                        <Metric id ="VG" value ="1"/>
+                        <Metric id ="PAR" value ="1"/>
+                     </Metrics>
+                  </Method>
+               </Type>
+            </CompilationUnit>
+            <CompilationUnit name = "Customer.java" handle = "=Software-Engineering-Refactor/src&lt;{Customer.java">
+               <Metrics>
+                  <Metric id ="NORM" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+                  <Metric id ="NOF" value ="2" avg ="2" stddev ="0" points ="1" max ="2" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+                  <Metric id ="NSC" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+                  <Metric id ="NOC" value ="1"/>
+                  <Metric id ="MLOC" value ="35" avg ="8,75" stddev ="13,423" points ="4" max ="32" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~statement"/>
+                  <Metric id ="NOM" value ="4" avg ="4" stddev ="0" points ="1" max ="4" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+                  <Metric id ="NBD" avg ="1,25" stddev ="0,433" points ="4" max ="2" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~statement"/>
+                  <Metric id ="DIT" avg ="1" stddev ="0" points ="1" max ="1" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+                  <Metric id ="NOI" value ="0"/>
+                  <Metric id ="VG" avg ="3" stddev ="3,464" points ="4" max ="9" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~statement"/>
+                  <Metric id ="TLOC" value ="49"/>
+                  <Metric id ="PAR" avg ="0,5" stddev ="0,5" points ="4" max ="1" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~Customer~QString;"/>
+                  <Metric id ="LCOM" avg ="0,667" stddev ="0" points ="1" max ="0,667" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+                  <Metric id ="NSM" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+                  <Metric id ="SIX" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+                  <Metric id ="WMC" value ="12" avg ="12" stddev ="0" points ="1" max ="12" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+                  <Metric id ="NSF" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer"/>
+               </Metrics>
+               <Type name = "Customer" handle = "=Software-Engineering-Refactor/src&lt;{Customer.java[Customer">
+                  <Metrics>
+                     <Metric id ="NORM" value ="0"/>
+                     <Metric id ="NOF" value ="2"/>
+                     <Metric id ="NSC" value ="0"/>
+                     <Metric id ="MLOC" value ="35" avg ="8,75" stddev ="13,423" points ="4" max ="32" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~statement"/>
+                     <Metric id ="NOM" value ="4"/>
+                     <Metric id ="NBD" avg ="1,25" stddev ="0,433" points ="4" max ="2" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~statement"/>
+                     <Metric id ="DIT" value ="1"/>
+                     <Metric id ="VG" avg ="3" stddev ="3,464" points ="4" max ="9" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~statement"/>
+                     <Metric id ="PAR" avg ="0,5" stddev ="0,5" points ="4" max ="1" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~Customer~QString;"/>
+                     <Metric id ="LCOM" value ="0,667"/>
+                     <Metric id ="NSM" value ="0"/>
+                     <Metric id ="SIX" value ="0"/>
+                     <Metric id ="WMC" value ="12"/>
+                     <Metric id ="NSF" value ="0"/>
+                  </Metrics>
+                  <Method name = "addRental" handle = "=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~addRental~QRental;">
+                     <Metrics>
+                        <Metric id ="MLOC" value ="1"/>
+                        <Metric id ="NBD" value ="1"/>
+                        <Metric id ="VG" value ="1"/>
+                        <Metric id ="PAR" value ="1"/>
+                     </Metrics>
+                  </Method>
+                  <Method name = "Customer" handle = "=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~Customer~QString;">
+                     <Metrics>
+                        <Metric id ="MLOC" value ="1"/>
+                        <Metric id ="NBD" value ="1"/>
+                        <Metric id ="VG" value ="1"/>
+                        <Metric id ="PAR" value ="1"/>
+                     </Metrics>
+                  </Method>
+                  <Method name = "statement" handle = "=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~statement">
+                     <Metrics>
+                        <Metric id ="MLOC" value ="32"/>
+                        <Metric id ="NBD" value ="2"/>
+                        <Metric id ="VG" value ="9"/>
+                        <Metric id ="PAR" value ="0"/>
+                     </Metrics>
+                  </Method>
+                  <Method name = "getName" handle = "=Software-Engineering-Refactor/src&lt;{Customer.java[Customer~getName">
+                     <Metrics>
+                        <Metric id ="MLOC" value ="1"/>
+                        <Metric id ="NBD" value ="1"/>
+                        <Metric id ="VG" value ="1"/>
+                        <Metric id ="PAR" value ="0"/>
+                     </Metrics>
+                  </Method>
+               </Type>
+            </CompilationUnit>
+            <CompilationUnit name = "Rental.java" handle = "=Software-Engineering-Refactor/src&lt;{Rental.java">
+               <Metrics>
+                  <Metric id ="NORM" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental"/>
+                  <Metric id ="NOF" value ="2" avg ="2" stddev ="0" points ="1" max ="2" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental"/>
+                  <Metric id ="NSC" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental"/>
+                  <Metric id ="NOC" value ="1"/>
+                  <Metric id ="MLOC" value ="4" avg ="1,333" stddev ="0,471" points ="3" max ="2" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental~Rental~QMovie;~I"/>
+                  <Metric id ="NOM" value ="3" avg ="3" stddev ="0" points ="1" max ="3" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental"/>
+                  <Metric id ="NBD" avg ="1" stddev ="0" points ="3" max ="1" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental~Rental~QMovie;~I"/>
+                  <Metric id ="DIT" avg ="1" stddev ="0" points ="1" max ="1" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental"/>
+                  <Metric id ="NOI" value ="0"/>
+                  <Metric id ="VG" avg ="1" stddev ="0" points ="3" max ="1" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental~Rental~QMovie;~I"/>
+                  <Metric id ="TLOC" value ="14"/>
+                  <Metric id ="PAR" avg ="0,667" stddev ="0,943" points ="3" max ="2" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental~Rental~QMovie;~I"/>
+                  <Metric id ="LCOM" avg ="0,5" stddev ="0" points ="1" max ="0,5" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental"/>
+                  <Metric id ="NSM" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental"/>
+                  <Metric id ="SIX" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental"/>
+                  <Metric id ="WMC" value ="3" avg ="3" stddev ="0" points ="1" max ="3" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental"/>
+                  <Metric id ="NSF" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental"/>
+               </Metrics>
+               <Type name = "Rental" handle = "=Software-Engineering-Refactor/src&lt;{Rental.java[Rental">
+                  <Metrics>
+                     <Metric id ="NORM" value ="0"/>
+                     <Metric id ="NOF" value ="2"/>
+                     <Metric id ="NSC" value ="0"/>
+                     <Metric id ="MLOC" value ="4" avg ="1,333" stddev ="0,471" points ="3" max ="2" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental~Rental~QMovie;~I"/>
+                     <Metric id ="NOM" value ="3"/>
+                     <Metric id ="NBD" avg ="1" stddev ="0" points ="3" max ="1" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental~Rental~QMovie;~I"/>
+                     <Metric id ="DIT" value ="1"/>
+                     <Metric id ="VG" avg ="1" stddev ="0" points ="3" max ="1" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental~Rental~QMovie;~I"/>
+                     <Metric id ="PAR" avg ="0,667" stddev ="0,943" points ="3" max ="2" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Rental.java[Rental~Rental~QMovie;~I"/>
+                     <Metric id ="LCOM" value ="0,5"/>
+                     <Metric id ="NSM" value ="0"/>
+                     <Metric id ="SIX" value ="0"/>
+                     <Metric id ="WMC" value ="3"/>
+                     <Metric id ="NSF" value ="0"/>
+                  </Metrics>
+                  <Method name = "getDaysRented" handle = "=Software-Engineering-Refactor/src&lt;{Rental.java[Rental~getDaysRented">
+                     <Metrics>
+                        <Metric id ="MLOC" value ="1"/>
+                        <Metric id ="NBD" value ="1"/>
+                        <Metric id ="VG" value ="1"/>
+                        <Metric id ="PAR" value ="0"/>
+                     </Metrics>
+                  </Method>
+                  <Method name = "Rental" handle = "=Software-Engineering-Refactor/src&lt;{Rental.java[Rental~Rental~QMovie;~I">
+                     <Metrics>
+                        <Metric id ="MLOC" value ="2"/>
+                        <Metric id ="NBD" value ="1"/>
+                        <Metric id ="VG" value ="1"/>
+                        <Metric id ="PAR" value ="2"/>
+                     </Metrics>
+                  </Method>
+                  <Method name = "getMovie" handle = "=Software-Engineering-Refactor/src&lt;{Rental.java[Rental~getMovie">
+                     <Metrics>
+                        <Metric id ="MLOC" value ="1"/>
+                        <Metric id ="NBD" value ="1"/>
+                        <Metric id ="VG" value ="1"/>
+                        <Metric id ="PAR" value ="0"/>
+                     </Metrics>
+                  </Method>
+               </Type>
+            </CompilationUnit>
+            <CompilationUnit name = "Movie.java" handle = "=Software-Engineering-Refactor/src&lt;{Movie.java">
+               <Metrics>
+                  <Metric id ="NORM" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie"/>
+                  <Metric id ="NOF" value ="2" avg ="2" stddev ="0" points ="1" max ="2" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie"/>
+                  <Metric id ="NSC" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie"/>
+                  <Metric id ="NOC" value ="1"/>
+                  <Metric id ="MLOC" value ="5" avg ="1,25" stddev ="0,433" points ="4" max ="2" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie~Movie~QString;~I"/>
+                  <Metric id ="NOM" value ="4" avg ="4" stddev ="0" points ="1" max ="4" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie"/>
+                  <Metric id ="NBD" avg ="1" stddev ="0" points ="4" max ="1" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie~Movie~QString;~I"/>
+                  <Metric id ="DIT" avg ="1" stddev ="0" points ="1" max ="1" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie"/>
+                  <Metric id ="NOI" value ="0"/>
+                  <Metric id ="VG" avg ="1" stddev ="0" points ="4" max ="1" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie~Movie~QString;~I"/>
+                  <Metric id ="TLOC" value ="20"/>
+                  <Metric id ="PAR" avg ="0,75" stddev ="0,829" points ="4" max ="2" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie~Movie~QString;~I"/>
+                  <Metric id ="LCOM" avg ="0,5" stddev ="0" points ="1" max ="0,5" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie"/>
+                  <Metric id ="NSM" value ="0" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie"/>
+                  <Metric id ="SIX" avg ="0" stddev ="0" points ="1" max ="0" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie"/>
+                  <Metric id ="WMC" value ="4" avg ="4" stddev ="0" points ="1" max ="4" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie"/>
+                  <Metric id ="NSF" value ="3" avg ="3" stddev ="0" points ="1" max ="3" per ="type" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie"/>
+               </Metrics>
+               <Type name = "Movie" handle = "=Software-Engineering-Refactor/src&lt;{Movie.java[Movie">
+                  <Metrics>
+                     <Metric id ="NORM" value ="0"/>
+                     <Metric id ="NOF" value ="2"/>
+                     <Metric id ="NSC" value ="0"/>
+                     <Metric id ="MLOC" value ="5" avg ="1,25" stddev ="0,433" points ="4" max ="2" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie~Movie~QString;~I"/>
+                     <Metric id ="NOM" value ="4"/>
+                     <Metric id ="NBD" avg ="1" stddev ="0" points ="4" max ="1" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie~Movie~QString;~I"/>
+                     <Metric id ="DIT" value ="1"/>
+                     <Metric id ="VG" avg ="1" stddev ="0" points ="4" max ="1" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie~Movie~QString;~I"/>
+                     <Metric id ="PAR" avg ="0,75" stddev ="0,829" points ="4" max ="2" per ="method" maxhandle ="=Software-Engineering-Refactor/src&lt;{Movie.java[Movie~Movie~QString;~I"/>
+                     <Metric id ="LCOM" value ="0,5"/>
+                     <Metric id ="NSM" value ="0"/>
+                     <Metric id ="SIX" value ="0"/>
+                     <Metric id ="WMC" value ="4"/>
+                     <Metric id ="NSF" value ="3"/>
+                  </Metrics>
+                  <Method name = "setPriceCode" handle = "=Software-Engineering-Refactor/src&lt;{Movie.java[Movie~setPriceCode~I">
+                     <Metrics>
+                        <Metric id ="MLOC" value ="1"/>
+                        <Metric id ="NBD" value ="1"/>
+                        <Metric id ="VG" value ="1"/>
+                        <Metric id ="PAR" value ="1"/>
+                     </Metrics>
+                  </Method>
+                  <Method name = "Movie" handle = "=Software-Engineering-Refactor/src&lt;{Movie.java[Movie~Movie~QString;~I">
+                     <Metrics>
+                        <Metric id ="MLOC" value ="2"/>
+                        <Metric id ="NBD" value ="1"/>
+                        <Metric id ="VG" value ="1"/>
+                        <Metric id ="PAR" value ="2"/>
+                     </Metrics>
+                  </Method>
+                  <Method name = "getTitle" handle = "=Software-Engineering-Refactor/src&lt;{Movie.java[Movie~getTitle">
+                     <Metrics>
+                        <Metric id ="MLOC" value ="1"/>
+                        <Metric id ="NBD" value ="1"/>
+                        <Metric id ="VG" value ="1"/>
+                        <Metric id ="PAR" value ="0"/>
+                     </Metrics>
+                  </Method>
+                  <Method name = "getPriceCode" handle = "=Software-Engineering-Refactor/src&lt;{Movie.java[Movie~getPriceCode">
+                     <Metrics>
+                        <Metric id ="MLOC" value ="1"/>
+                        <Metric id ="NBD" value ="1"/>
+                        <Metric id ="VG" value ="1"/>
+                        <Metric id ="PAR" value ="0"/>
+                     </Metrics>
+                  </Method>
+               </Type>
+            </CompilationUnit>
+         </Package>
+      </PackageRoot>
+   </Project>
+</Metrics>
