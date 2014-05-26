@@ -28,9 +28,9 @@
       <Value value="4"/>
    </Metric>
    <Metric id = "MLOC" description ="Method Lines of Code">
-      <Values per = "method" total = "58" avg = "4,462" stddev = "6,147" max = "18">
-         <Value name="statement" source ="Customer.java" package ="(default package)" value ="18"/>
+      <Values per = "method" total = "56" avg = "4,308" stddev = "5,823" max = "17">
          <Value name="getCharge" source ="Rental.java" package ="(default package)" value ="17"/>
+         <Value name="statement" source ="Customer.java" package ="(default package)" value ="16"/>
          <Value name="main" source ="Program.java" package ="(default package)" value ="11"/>
          <Value name="Movie" source ="Movie.java" package ="(default package)" value ="2"/>
          <Value name="Rental" source ="Rental.java" package ="(default package)" value ="2"/>
@@ -103,7 +103,7 @@
       </Values>
    </Metric>
    <Metric id = "TLOC" description ="Total Lines of Code">
-      <Value value="107"/>
+      <Value value="105"/>
    </Metric>
    <Metric id = "RMI" description ="Instability">
       <Value value="1"/>
