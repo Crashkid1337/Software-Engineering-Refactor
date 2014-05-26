@@ -46,9 +46,9 @@
       </Values>
    </Metric>
    <Metric id = "NOM" description ="Number of Methods">
-      <Values per = "type" total = "13" avg = "3,25" stddev = "1,92" max = "5">
+      <Values per = "type" total = "14" avg = "3,5" stddev = "2,062" max = "5">
+         <Value name="Customer" source ="Customer.java" package ="(default package)" value ="5"/>
          <Value name="Rental" source ="Rental.java" package ="(default package)" value ="5"/>
-         <Value name="Customer" source ="Customer.java" package ="(default package)" value ="4"/>
          <Value name="Movie" source ="Movie.java" package ="(default package)" value ="4"/>
          <Value name="Program" source ="Program.java" package ="(default package)" value ="0"/>
       </Values>
@@ -130,8 +130,8 @@
       </Values>
    </Metric>
    <Metric id = "LCOM" description ="Lack of Cohesion of Methods">
-      <Values per = "type" avg = "0,417" stddev = "0,25" max = "0,667">
-         <Value name="Customer" source ="Customer.java" package ="(default package)" value ="0,667"/>
+      <Values per = "type" avg = "0,406" stddev = "0,24" max = "0,625">
+         <Value name="Customer" source ="Customer.java" package ="(default package)" value ="0,625"/>
          <Value name="Movie" source ="Movie.java" package ="(default package)" value ="0,5"/>
          <Value name="Rental" source ="Rental.java" package ="(default package)" value ="0,5"/>
          <Value name="Program" source ="Program.java" package ="(default package)" value ="0"/>
