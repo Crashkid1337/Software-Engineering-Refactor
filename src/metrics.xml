@@ -28,10 +28,12 @@
       <Value value="4"/>
    </Metric>
    <Metric id = "MLOC" description ="Method Lines of Code">
-      <Values per = "method" total = "58" avg = "4,143" stddev = "5,33" max = "17">
+      <Values per = "method" total = "68" avg = "4,25" stddev = "4,684" max = "17">
          <Value name="getCharge" source ="Rental.java" package ="(default package)" value ="17"/>
-         <Value name="statement" source ="Customer.java" package ="(default package)" value ="14"/>
          <Value name="main" source ="Program.java" package ="(default package)" value ="11"/>
+         <Value name="statement" source ="Customer.java" package ="(default package)" value ="10"/>
+         <Value name="getTotalCharge" source ="Customer.java" package ="(default package)" value ="7"/>
+         <Value name="getTotalFrequentRenterPoints" source ="Customer.java" package ="(default package)" value ="7"/>
          <Value name="getFrequentRenterPoints" source ="Rental.java" package ="(default package)" value ="4"/>
          <Value name="Movie" source ="Movie.java" package ="(default package)" value ="2"/>
          <Value name="Rental" source ="Rental.java" package ="(default package)" value ="2"/>
@@ -46,15 +48,17 @@
       </Values>
    </Metric>
    <Metric id = "NOM" description ="Number of Methods">
-      <Values per = "type" total = "14" avg = "3,5" stddev = "2,062" max = "5">
-         <Value name="Customer" source ="Customer.java" package ="(default package)" value ="5"/>
+      <Values per = "type" total = "15" avg = "3,75" stddev = "2,278" max = "6">
+         <Value name="Customer" source ="Customer.java" package ="(default package)" value ="6"/>
          <Value name="Rental" source ="Rental.java" package ="(default package)" value ="5"/>
          <Value name="Movie" source ="Movie.java" package ="(default package)" value ="4"/>
          <Value name="Program" source ="Program.java" package ="(default package)" value ="0"/>
       </Values>
    </Metric>
    <Metric id = "NBD" description ="Nested Block Depth" max ="5" hint ="use Extract-method to split the method up">
-      <Values per = "method" avg = "1,071" stddev = "0,258" max = "2">
+      <Values per = "method" avg = "1,188" stddev = "0,39" max = "2">
+         <Value name="getTotalCharge" source ="Customer.java" package ="(default package)" value ="2"/>
+         <Value name="getTotalFrequentRenterPoints" source ="Customer.java" package ="(default package)" value ="2"/>
          <Value name="statement" source ="Customer.java" package ="(default package)" value ="2"/>
          <Value name="Customer" source ="Customer.java" package ="(default package)" value ="1"/>
          <Value name="addRental" source ="Customer.java" package ="(default package)" value ="1"/>
@@ -88,9 +92,11 @@
       <Value value="0"/>
    </Metric>
    <Metric id = "VG" description ="McCabe Cyclomatic Complexity" max ="10" hint ="use Extract-method to split the method up">
-      <Values per = "method" avg = "1,571" stddev = "1,348" max = "6">
+      <Values per = "method" avg = "1,625" stddev = "1,269" max = "6">
          <Value name="getCharge" source ="Rental.java" package ="(default package)" value ="6"/>
          <Value name="getFrequentRenterPoints" source ="Rental.java" package ="(default package)" value ="3"/>
+         <Value name="getTotalCharge" source ="Customer.java" package ="(default package)" value ="2"/>
+         <Value name="getTotalFrequentRenterPoints" source ="Customer.java" package ="(default package)" value ="2"/>
          <Value name="statement" source ="Customer.java" package ="(default package)" value ="2"/>
          <Value name="Customer" source ="Customer.java" package ="(default package)" value ="1"/>
          <Value name="addRental" source ="Customer.java" package ="(default package)" value ="1"/>
@@ -106,13 +112,13 @@
       </Values>
    </Metric>
    <Metric id = "TLOC" description ="Total Lines of Code">
-      <Value value="109"/>
+      <Value value="123"/>
    </Metric>
    <Metric id = "RMI" description ="Instability">
       <Value value="1"/>
    </Metric>
    <Metric id = "PAR" description ="Number of Parameters" max ="5" hint ="Move invoked method or pass an object">
-      <Values per = "method" avg = "0,643" stddev = "0,718" max = "2">
+      <Values per = "method" avg = "0,562" stddev = "0,704" max = "2">
          <Value name="Movie" source ="Movie.java" package ="(default package)" value ="2"/>
          <Value name="Rental" source ="Rental.java" package ="(default package)" value ="2"/>
          <Value name="Customer" source ="Customer.java" package ="(default package)" value ="1"/>
@@ -121,6 +127,8 @@
          <Value name="main" source ="Program.java" package ="(default package)" value ="1"/>
          <Value name="getFrequentRenterPoints" source ="Rental.java" package ="(default package)" value ="1"/>
          <Value name="getName" source ="Customer.java" package ="(default package)" value ="0"/>
+         <Value name="getTotalCharge" source ="Customer.java" package ="(default package)" value ="0"/>
+         <Value name="getTotalFrequentRenterPoints" source ="Customer.java" package ="(default package)" value ="0"/>
          <Value name="statement" source ="Customer.java" package ="(default package)" value ="0"/>
          <Value name="getPriceCode" source ="Movie.java" package ="(default package)" value ="0"/>
          <Value name="getTitle" source ="Movie.java" package ="(default package)" value ="0"/>
@@ -130,8 +138,8 @@
       </Values>
    </Metric>
    <Metric id = "LCOM" description ="Lack of Cohesion of Methods">
-      <Values per = "type" avg = "0,406" stddev = "0,24" max = "0,625">
-         <Value name="Customer" source ="Customer.java" package ="(default package)" value ="0,625"/>
+      <Values per = "type" avg = "0,4" stddev = "0,235" max = "0,6">
+         <Value name="Customer" source ="Customer.java" package ="(default package)" value ="0,6"/>
          <Value name="Movie" source ="Movie.java" package ="(default package)" value ="0,5"/>
          <Value name="Rental" source ="Rental.java" package ="(default package)" value ="0,5"/>
          <Value name="Program" source ="Program.java" package ="(default package)" value ="0"/>
@@ -163,9 +171,9 @@
       </Values>
    </Metric>
    <Metric id = "WMC" description ="Weighted methods per Class">
-      <Values per = "type" total = "22" avg = "5,5" stddev = "4,031" max = "12">
+      <Values per = "type" total = "26" avg = "6,5" stddev = "4,272" max = "12">
          <Value name="Rental" source ="Rental.java" package ="(default package)" value ="12"/>
-         <Value name="Customer" source ="Customer.java" package ="(default package)" value ="5"/>
+         <Value name="Customer" source ="Customer.java" package ="(default package)" value ="9"/>
          <Value name="Movie" source ="Movie.java" package ="(default package)" value ="4"/>
          <Value name="Program" source ="Program.java" package ="(default package)" value ="1"/>
       </Values>
