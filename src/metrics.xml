@@ -28,13 +28,12 @@
       <Value value="4"/>
    </Metric>
    <Metric id = "MLOC" description ="Method Lines of Code">
-      <Values per = "method" total = "68" avg = "4,25" stddev = "4,684" max = "17">
-         <Value name="getCharge" source ="Rental.java" package ="(default package)" value ="17"/>
+      <Values per = "method" total = "66" avg = "3,882" stddev = "4,664" max = "17">
+         <Value name="getCharge" source ="Movie.java" package ="(default package)" value ="17"/>
          <Value name="main" source ="Program.java" package ="(default package)" value ="11"/>
          <Value name="statement" source ="Customer.java" package ="(default package)" value ="10"/>
          <Value name="getTotalCharge" source ="Customer.java" package ="(default package)" value ="7"/>
          <Value name="getTotalFrequentRenterPoints" source ="Customer.java" package ="(default package)" value ="7"/>
-         <Value name="getFrequentRenterPoints" source ="Rental.java" package ="(default package)" value ="4"/>
          <Value name="Movie" source ="Movie.java" package ="(default package)" value ="2"/>
          <Value name="Rental" source ="Rental.java" package ="(default package)" value ="2"/>
          <Value name="Customer" source ="Customer.java" package ="(default package)" value ="1"/>
@@ -43,20 +42,22 @@
          <Value name="getPriceCode" source ="Movie.java" package ="(default package)" value ="1"/>
          <Value name="getTitle" source ="Movie.java" package ="(default package)" value ="1"/>
          <Value name="setPriceCode" source ="Movie.java" package ="(default package)" value ="1"/>
+         <Value name="getCharge" source ="Rental.java" package ="(default package)" value ="1"/>
          <Value name="getDaysRented" source ="Rental.java" package ="(default package)" value ="1"/>
+         <Value name="getFrequentRenterPoints" source ="Rental.java" package ="(default package)" value ="1"/>
          <Value name="getMovie" source ="Rental.java" package ="(default package)" value ="1"/>
       </Values>
    </Metric>
    <Metric id = "NOM" description ="Number of Methods">
-      <Values per = "type" total = "15" avg = "3,75" stddev = "2,278" max = "6">
+      <Values per = "type" total = "16" avg = "4" stddev = "2,345" max = "6">
          <Value name="Customer" source ="Customer.java" package ="(default package)" value ="6"/>
+         <Value name="Movie" source ="Movie.java" package ="(default package)" value ="5"/>
          <Value name="Rental" source ="Rental.java" package ="(default package)" value ="5"/>
-         <Value name="Movie" source ="Movie.java" package ="(default package)" value ="4"/>
          <Value name="Program" source ="Program.java" package ="(default package)" value ="0"/>
       </Values>
    </Metric>
    <Metric id = "NBD" description ="Nested Block Depth" max ="5" hint ="use Extract-method to split the method up">
-      <Values per = "method" avg = "1,188" stddev = "0,39" max = "2">
+      <Values per = "method" avg = "1,176" stddev = "0,381" max = "2">
          <Value name="getTotalCharge" source ="Customer.java" package ="(default package)" value ="2"/>
          <Value name="getTotalFrequentRenterPoints" source ="Customer.java" package ="(default package)" value ="2"/>
          <Value name="statement" source ="Customer.java" package ="(default package)" value ="2"/>
@@ -64,6 +65,7 @@
          <Value name="addRental" source ="Customer.java" package ="(default package)" value ="1"/>
          <Value name="getName" source ="Customer.java" package ="(default package)" value ="1"/>
          <Value name="Movie" source ="Movie.java" package ="(default package)" value ="1"/>
+         <Value name="getCharge" source ="Movie.java" package ="(default package)" value ="1"/>
          <Value name="getPriceCode" source ="Movie.java" package ="(default package)" value ="1"/>
          <Value name="getTitle" source ="Movie.java" package ="(default package)" value ="1"/>
          <Value name="setPriceCode" source ="Movie.java" package ="(default package)" value ="1"/>
@@ -92,9 +94,8 @@
       <Value value="0"/>
    </Metric>
    <Metric id = "VG" description ="McCabe Cyclomatic Complexity" max ="10" hint ="use Extract-method to split the method up">
-      <Values per = "method" avg = "1,625" stddev = "1,269" max = "6">
-         <Value name="getCharge" source ="Rental.java" package ="(default package)" value ="6"/>
-         <Value name="getFrequentRenterPoints" source ="Rental.java" package ="(default package)" value ="3"/>
+      <Values per = "method" avg = "1,471" stddev = "1,194" max = "6">
+         <Value name="getCharge" source ="Movie.java" package ="(default package)" value ="6"/>
          <Value name="getTotalCharge" source ="Customer.java" package ="(default package)" value ="2"/>
          <Value name="getTotalFrequentRenterPoints" source ="Customer.java" package ="(default package)" value ="2"/>
          <Value name="statement" source ="Customer.java" package ="(default package)" value ="2"/>
@@ -107,7 +108,9 @@
          <Value name="setPriceCode" source ="Movie.java" package ="(default package)" value ="1"/>
          <Value name="main" source ="Program.java" package ="(default package)" value ="1"/>
          <Value name="Rental" source ="Rental.java" package ="(default package)" value ="1"/>
+         <Value name="getCharge" source ="Rental.java" package ="(default package)" value ="1"/>
          <Value name="getDaysRented" source ="Rental.java" package ="(default package)" value ="1"/>
+         <Value name="getFrequentRenterPoints" source ="Rental.java" package ="(default package)" value ="1"/>
          <Value name="getMovie" source ="Rental.java" package ="(default package)" value ="1"/>
       </Values>
    </Metric>
@@ -118,14 +121,14 @@
       <Value value="1"/>
    </Metric>
    <Metric id = "PAR" description ="Number of Parameters" max ="5" hint ="Move invoked method or pass an object">
-      <Values per = "method" avg = "0,562" stddev = "0,704" max = "2">
+      <Values per = "method" avg = "0,529" stddev = "0,696" max = "2">
          <Value name="Movie" source ="Movie.java" package ="(default package)" value ="2"/>
          <Value name="Rental" source ="Rental.java" package ="(default package)" value ="2"/>
          <Value name="Customer" source ="Customer.java" package ="(default package)" value ="1"/>
          <Value name="addRental" source ="Customer.java" package ="(default package)" value ="1"/>
+         <Value name="getCharge" source ="Movie.java" package ="(default package)" value ="1"/>
          <Value name="setPriceCode" source ="Movie.java" package ="(default package)" value ="1"/>
          <Value name="main" source ="Program.java" package ="(default package)" value ="1"/>
-         <Value name="getFrequentRenterPoints" source ="Rental.java" package ="(default package)" value ="1"/>
          <Value name="getName" source ="Customer.java" package ="(default package)" value ="0"/>
          <Value name="getTotalCharge" source ="Customer.java" package ="(default package)" value ="0"/>
          <Value name="getTotalFrequentRenterPoints" source ="Customer.java" package ="(default package)" value ="0"/>
@@ -134,6 +137,7 @@
          <Value name="getTitle" source ="Movie.java" package ="(default package)" value ="0"/>
          <Value name="getCharge" source ="Rental.java" package ="(default package)" value ="0"/>
          <Value name="getDaysRented" source ="Rental.java" package ="(default package)" value ="0"/>
+         <Value name="getFrequentRenterPoints" source ="Rental.java" package ="(default package)" value ="0"/>
          <Value name="getMovie" source ="Rental.java" package ="(default package)" value ="0"/>
       </Values>
    </Metric>
@@ -171,10 +175,10 @@
       </Values>
    </Metric>
    <Metric id = "WMC" description ="Weighted methods per Class">
-      <Values per = "type" total = "26" avg = "6,5" stddev = "4,272" max = "12">
-         <Value name="Rental" source ="Rental.java" package ="(default package)" value ="12"/>
+      <Values per = "type" total = "25" avg = "6,25" stddev = "3,562" max = "10">
+         <Value name="Movie" source ="Movie.java" package ="(default package)" value ="10"/>
          <Value name="Customer" source ="Customer.java" package ="(default package)" value ="9"/>
-         <Value name="Movie" source ="Movie.java" package ="(default package)" value ="4"/>
+         <Value name="Rental" source ="Rental.java" package ="(default package)" value ="5"/>
          <Value name="Program" source ="Program.java" package ="(default package)" value ="1"/>
       </Values>
    </Metric>
